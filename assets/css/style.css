@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Alta;
+    src: url(../fonts/Alta/Alta-regular.otf);
+}
+
+@font-face {
+    font-family: Amsterdam_One;
+    src: url(../fonts/Amsterdam_One/Amsterdam_One-regular.ttf);
+}
+
+@font-face {
+    font-family: Belleza;
+    src: url(../fonts/Belleza/Belleza-regular.ttf);
+}
+
+
+html {
+    background-color: #1c2120;
+}
+
+body {
+    color: lightgray;
+}
+
+
+/* logo */
+#logo {
+display: flex;   
+justify-content: center;
+align-items: center;
+margin-top: -15px;
+padding-left: 30px;
+padding-right: 30px;
+}
+#thi {
+    font-family: Amsterdam_One;
+    font-size: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 30px;
+}
+#hair-and, #beauty {
+    font-family: Alta;
+}
+#hair-and {
+    font-size: 55px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    margin-left: 1px;
+}
+#beauty {
+    font-size: 75px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#primary-subtitle, #secondary-subtitle {
+    font-family: Belleza;
+    font-size: 25px;
+    text-align: center;
+}
+#primary-subtitle {
+    margin-top: -30px;
+}
+#secondary-subtitle {
+    margin-bottom: 30px;
+}
+
+/* centre the content and put a box around it */
+#content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    margin:5px;
+    box-shadow: inset 0px 0px 0px 4px lightgray;
+}
+
